@@ -64,6 +64,7 @@
             <div class="row">
                 <div class="col">
                     <div style="overflow-x:auto;">
+
                         {{-- <a href="{{ route('mahasiswa.create') }}" class="tambah">Tambah Data</a> --}}
                         <table class="table">
                             <thead>
