@@ -15,11 +15,11 @@ class JoinWhereController extends Controller
     public function index()
     {
         $siswa = DB::table('siswa')
-        
-        
-        ->join('kelas','siswa.id_kelas','=','kelas.id_kelas')
-        ->where('id_kelas', '=', '03')
         ->select('*')
+        ->where('kelas', '=', 'X')
+        ->join('kelas','siswa.id_kelas','=','kelas.id_kelas')
+        
+        
         //->where('id_kelas', '=', '03')
         //->join('ms_kategori','ms_buku.kode_kategori','=','ms_kategori.kode_kategori')
         ->get();
