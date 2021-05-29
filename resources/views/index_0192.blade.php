@@ -48,9 +48,9 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/select">Select</a></li>
-                            <li><a class="dropdown-item" href="/selectwhere">Select Where</a></li>
-                            <li><a class="dropdown-item" href="/selectjoin">Select Join</a></li>
-                            <li><a class="dropdown-item" href="/selectjoinwhere">Select Join dengan Where</a></li>
+                            <li><a class="dropdown-item" href="/where">Select Where</a></li>
+                            <li><a class="dropdown-item" href="/join">Select Join</a></li>
+                            <li><a class="dropdown-item" href="/joinwhere">Select Join dengan Where</a></li>
                         </ul>
                     </li>
                 </ul>
